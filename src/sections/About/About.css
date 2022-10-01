@@ -1,0 +1,21 @@
+.headshot-parent {
+  background-color: var(--accent);
+  width: 200px;
+  height: 200px;
+  border-radius: 7px;
+}
+
+.headshot {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  filter: grayscale(100%) contrast(1) brightness(90%);
+  mix-blend-mode: multiply;
+  transition: filter 0.25s, mix-blend-mode 0.25s;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.headshot:hover {
+    filter: grayscale(0%);
+    mix-blend-mode: normal;
+  }

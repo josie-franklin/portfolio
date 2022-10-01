@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background: #192a4d;
+  --lighter-bg: #2c4a87;
+  --primary-text: #fff;
+  --secondary-text: #3e6ac1;
+  --accent: #eaff80;
+}
+
+[data-theme=""] {
+  --background: ;
+  --primary-text: ;
+  --secondary-text: ;
+  --accent: ;
+}
+
+/* utility classes here */
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* normal stuff here */
+body {
+  background-color: var(--background);
+  color: var(--primary-text);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+section {
+  padding: 30px;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--primary-text);
+  text-decoration: none;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.btn:hover {
+  background-color: var(--accent);
+  color: var(--primary-text);
+}
+
+#landing {
+  padding: 0px;
+}
+
+.parallax {
+  height: 50vh;
+}
+
+/* media queries here */
