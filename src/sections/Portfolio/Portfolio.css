@@ -39,3 +39,8 @@
   border-radius: 7px;
   box-shadow: 0 1px 12px rgba(0, 0, 0, 0.5);
 }
+
+.info-card-left {
+  left: 0%;
+  text-align: left;
+}

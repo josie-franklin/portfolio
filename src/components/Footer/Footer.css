@@ -1,6 +1,6 @@
 footer {
   background-size: cover;
-  /* background-color: var(--maroon); */
+  background-color: var(--alt-bg);
   /* color: var(--powder); */
   padding: 30px;
 }

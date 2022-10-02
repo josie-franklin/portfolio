@@ -1,7 +1,7 @@
 header {
   background-size: cover;
-  /* background-color: var(--indigo); */
-  /* color: var(--white); */
+  background-color: var(--alt-bg);
+  /* color: var(--secondary-text); */
   position: -webkit-sticky;
   top: 0;
   z-index: 9999;

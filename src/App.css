@@ -5,11 +5,12 @@
 }
 
 :root {
-  --background: #192a4d;
-  --lighter-bg: #2c4a87;
-  --primary-text: #fff;
-  --secondary-text: #3e6ac1;
-  --accent: #eaff80;
+  --background: #e6e6e6;
+  --alt-bg: #2d3953;
+  --lighter-bg: #2d3953;
+  --primary-text: #2d3953;
+  --secondary-text: #fff;
+  --accent: #ffea80;
 }
 
 [data-theme=""] {
@@ -32,6 +33,11 @@
 .flex-row {
   display: flex;
   flex-direction: row;
+}
+
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .justify-center {
@@ -90,13 +96,4 @@ a {
   background-color: var(--accent);
   color: var(--primary-text);
 }
-
-#landing {
-  padding: 0px;
-}
-
-.parallax {
-  height: 50vh;
-}
-
 /* media queries here */

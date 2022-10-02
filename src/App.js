@@ -1,6 +1,7 @@
 // import framework and library dependancies
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
+// import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 // import styles
 import "./App.css";
