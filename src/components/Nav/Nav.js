@@ -11,6 +11,7 @@ function Nav() {
           <li
             className="nav-link"
             onClick={() => {
+              document.getElementById("header").classList.add("nav-hide");
               const about = document.getElementById("about");
               about.scrollIntoView({ behavior: "smooth" });
             }}
@@ -22,6 +23,7 @@ function Nav() {
           <li
             className="nav-link"
             onClick={() => {
+              document.getElementById("header").classList.add("nav-hide");
               const portfolio = document.getElementById("portfolio");
               portfolio.scrollIntoView({ behavior: "smooth" });
             }}
@@ -33,22 +35,12 @@ function Nav() {
           <li
             className="nav-link"
             onClick={() => {
+              document.getElementById("header").classList.add("nav-hide");
               const contact = document.getElementById("contact");
               contact.scrollIntoView({ behavior: "smooth" });
             }}
           >
             Contact Me
-          </li>
-        </Link>
-        <Link>
-          <li
-            className="nav-link"
-            onClick={() => {
-              const resume = document.getElementById("resume");
-              resume.scrollIntoView({ behavior: "smooth" });
-            }}
-          >
-            Resume
           </li>
         </Link>
       </ul>

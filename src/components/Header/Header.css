@@ -1,15 +1,21 @@
 header {
-  background-size: cover;
-  background-color: var(--alt-bg);
-  /* color: var(--secondary-text); */
-  position: -webkit-sticky;
+  width: 100%;
+  height: 10vh;
+  background-color: var(--secondary-bg);
+  position: fixed;
   top: 0;
   z-index: 9999;
-  padding: 30px;
+  transition: top 0.2s ease-in-out;
+  box-shadow: 0 1px 25px rgba(0, 0, 0, 0.1);
+  padding: 0 30px;
+}
+
+.nav-hide {
+  top: -10vh;
 }
 
 .logoplaceholder {
-  background-color: var(--lighter-bg);
+  background-color: var(--tertiary-bg);
   width: 30px;
   height: 30px;
   border-radius: 50%;

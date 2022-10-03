@@ -63,32 +63,36 @@ const Portfolio = () => {
   // className={`${menuOpen && "page-cover"}`}
   return (
     <section id="portfolio">
-      <h2>Portfolio</h2>
+      <div className="flex-row align-center">
+        <h2>Portfolio</h2>
+        <div className="section-decor"></div>
+      </div>
       <div>
         {projects.map((project, index) => (
-          <div
-            key={project.key}
-            className={`project-container flex ${
-              index % 2 && "flex-row-reverse"
-            }`}
-          >
-            <div className="image-card-parent">
-              <Link to={project.link} target="blank">
-                <img
-                  className="image-card-child"
-                  src={`${require(`../../assets/images/${project.background}`)}`}
-                  alt={project.title}
-                ></img>
-              </Link>
+          <div key={project.key} className="flex-column align-center">
+            <div
+              className={`project-container flex ${
+                index % 2 && "flex-row-reverse"
+              }`}
+            >
+              <div className="image-card-parent">
+                <Link to={project.link} target="blank">
+                  <img
+                    className="image-card-child"
+                    src={`${require(`../../assets/images/${project.background}`)}`}
+                    alt={project.title}
+                  ></img>
+                </Link>
+              </div>
+              <div className={`info-card ${index % 2 && "info-card-left"}`}>
+                <h3>{project.title}</h3>
+                <p className="tech-text">{project.tech}</p>
+                <p className="desc-text">{project.description}</p>
+              </div>
             </div>
-            <div className={`info-card ${index % 2 && "info-card-left"}`}>
-              <h3>{project.title}</h3>
-              <p>{project.tech}</p>
-              <p>{project.description}</p>
-              <Link to={project.github} target="blank">
-                <button className="btn">See the repo</button>
-              </Link>
-            </div>
+            <Link to={project.github} target="blank">
+              <button className="btn project-btn">See the repo</button>
+            </Link>
           </div>
         ))}
       </div>

@@ -5,7 +5,7 @@
 
 .image-card-parent {
   background-color: var(--accent);
-  width: 55vw;
+  width: 100%;
   border-radius: 7px;
   box-shadow: 0 1px 12px rgba(0, 0, 0, 0.1);
 }
@@ -27,20 +27,40 @@
   mix-blend-mode: normal;
 }
 
+h3 {
+  color: var(--primary-text);
+}
+
+.tech-text {
+  color: var(--secondary-accent);
+  font-size: 0.75rem;
+}
+
+.desc-text {
+  font-size: 0.75rem;
+  margin-top: 10px;
+}
+
 .info-card {
   position: absolute;
   z-index: 1;
-  width: 55vw;
+  width: 100%;
+  height: 100%;
   padding: 20px;
-  top: 25%;
-  right: 0%;
-  background-color: var(--lighter-bg);
+  /* top: 25%; */
+  /* right: 0%; */
+  background-color: rgba(0, 0, 0, 0.5);
   text-align: right;
   border-radius: 7px;
-  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0 1px 12px rgba(0, 0, 0, 0.5); */
 }
 
 .info-card-left {
   left: 0%;
   text-align: left;
+}
+
+.project-btn {
+  margin-top: 10px;
+  width: 60vw;
 }

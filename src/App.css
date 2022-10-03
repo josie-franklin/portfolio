@@ -5,12 +5,13 @@
 }
 
 :root {
-  --background: #e6e6e6;
-  --alt-bg: #2d3953;
-  --lighter-bg: #2d3953;
-  --primary-text: #2d3953;
-  --secondary-text: #fff;
-  --accent: #ffea80;
+  --background: #666;
+  --secondary-bg: #333;
+  --tertiary-bg: #ccc;
+  --primary-text: #fff;
+  --secondary-text: #ccc;
+  --accent: #80ffff;
+  --secondary-accent: #beee62;
 }
 
 [data-theme=""] {
@@ -56,12 +57,16 @@
   align-items: center;
 }
 
+.margin-top {
+  margin-top: 20px;
+}
 /* normal stuff here */
 body {
   background-color: var(--background);
-  color: var(--primary-text);
+  color: var(--secondary-text);
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
+  padding-top: 10vh;
 }
 
 .app {
@@ -78,9 +83,25 @@ section {
   min-height: 100vh;
 }
 
+#contact, #landing {
+  min-height: 90vh;
+}
+
 a {
   color: var(--primary-text);
   text-decoration: none;
+}
+
+h2 {
+  color: var(--primary-text);
+}
+
+.section-decor {
+  margin-left: 10px;
+  flex: 1;
+  height: 4px;
+  border-top: 3px solid var(--secondary-accent);
+  /* border-bottom: 2px solid var(--secondary-text); */
 }
 
 .btn {
@@ -93,7 +114,8 @@ a {
 }
 
 .btn:hover {
-  background-color: var(--accent);
-  color: var(--primary-text);
+  color: var(--secondary-accent);
+  border: 1px solid var(--secondary-accent);
 }
+
 /* media queries here */

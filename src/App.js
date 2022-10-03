@@ -15,7 +15,6 @@ import Landing from "./sections/Landing/Landing";
 import About from "./sections/About/About";
 import Portfolio from "./sections/Portfolio/Portfolio";
 import Contact from "./sections/Contact/Contact";
-import Resume from "./sections/Resume/Resume";
 
 // App
 function App() {
@@ -28,7 +27,6 @@ function App() {
           <About />
           <Portfolio />
           <Contact />
-          <Resume />
         </main>
         <Footer />
       </Router>
