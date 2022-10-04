@@ -4,7 +4,7 @@ footer {
   padding: 0 30px;
 }
 
-footer img {
-  width: 20px;
+footer svg {
   margin: 0 15px;
+  fill: var(--primary-text);
 }

@@ -14,7 +14,7 @@
   --secondary-accent: #beee62;
 }
 
-[data-theme=""] {
+[data-theme="discord"] {
   --background: ;
   --primary-text: ;
   --secondary-text: ;
@@ -83,7 +83,8 @@ section {
   min-height: 100vh;
 }
 
-#contact, #landing {
+#contact,
+#landing {
   min-height: 90vh;
 }
 
@@ -119,3 +120,8 @@ h2 {
 }
 
 /* media queries here */
+@media screen and (min-width: 774px) {
+  #landing {
+    width: 774px;
+  }
+}

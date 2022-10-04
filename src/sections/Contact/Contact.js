@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <section id="contact" className="flex-column justify-center">
+    <section id="contact">
       <div className="flex-row align-center">
         <h2>Let's Talk!</h2>
         <div className="section-decor"></div>
