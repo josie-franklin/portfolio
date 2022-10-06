@@ -37,7 +37,7 @@ const Header = () => {
   window.addEventListener("scroll", scrollHandler);
 
   return (
-    <header id="header" className="flex-row justify-space-between align-center">
+    <header id="header" className="flex-row justify-between align-center">
       <div className="logoplaceholder"></div>
       <Nav></Nav>
     </header>

@@ -10,16 +10,31 @@ const About = () => {
         <h2>About Me</h2>
         <div className="section-decor"></div>
       </div>
-      <div className="margin-top">
-        <p>
-          I am certified a full stack developer with a background in education
-          and management. I work with a variety of technologies including HTML,
-          CSS, JavaScript, MySql, and MongoDB to create and maintain full-stack
-          web applications. My time dealing with art has given me an eye for
-          design, color, and composition, and my previous job experience has
-          proven my client-facing skills and abilities to handle fast-paced
-          environents. I look forward to working with you!
-        </p>
+      <div className="about-content">
+        <div className="flex-column padding">
+          <p>
+            Hey there! My name is Josie. My passion for web design found its
+            roots in <span>art and framing</span>. I recently became certified
+            in <span>full-stack web development</span>, and I now consider color
+            and composition while creating intuitive UI for the best user
+            experiences. My <span>managerial experience</span> trained my
+            client-facing skills and proved my ability to handle immediate
+            requests and resolve conflicts. My{" "}
+            <span>background in education</span> fostered my love for learning
+            and seeking new challenges.
+          </p>
+          <p className="about-primary margin-top">
+            Here are some technologies I'm using currently.
+          </p>
+          <ul className="about-skills margin-top flex-row">
+            <li id="first-skill">JavaScript</li>
+            <li>CSS</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+            <li>Sql</li>
+          </ul>
+        </div>
         <div className="headshot-container">
           <div className="headshot-bg margin-top">
             <img className="headshot" src={headshot} alt="Headshot"></img>

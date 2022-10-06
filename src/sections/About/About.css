@@ -1,3 +1,10 @@
+.about-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-evenly;
+}
+
 .headshot-container {
   display: flex;
   justify-content: center;
@@ -5,8 +12,7 @@
 
 .headshot-bg {
   background-color: var(--accent);
-  width: 225px;
-  height: 225px;
+  width: 65vw;
   border-radius: 7px;
 }
 
@@ -21,6 +27,32 @@
 }
 
 .headshot:hover {
-    filter: grayscale(0%);
-    mix-blend-mode: normal;
+  filter: grayscale(0%);
+  mix-blend-mode: normal;
+}
+
+.about-primary {
+  color: var(--primary-text);
+}
+
+.about-skills {
+  list-style: none;
+}
+
+.about-skills li {
+  margin-left: 10px;
+  color: var(--secondary-accent);
+}
+
+#first-skill {
+  margin-left: 0px;
+}
+
+@media screen and (min-width: 550px) {
+  .headshot-bg {
+    width: 358px;
   }
+}
+
+/* @media screen and (min-width: 774px) {
+} */
