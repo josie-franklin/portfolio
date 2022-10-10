@@ -1,15 +1,15 @@
 .project-container {
   position: relative;
-  margin-top: 80px;
+  margin-top: 25%;
   width: 100%;
 }
 
 .first-project {
-  margin-top: 30px;
+  margin-top: 10%;
 }
 
 .last-project {
-  margin-bottom: 60px;
+  margin-bottom: 5%;
 }
 
 .image-card-parent {
@@ -78,11 +78,18 @@ h3 {
 }
 
 .project-btn {
-  /* margin-top: 10px; */
   width: 60vw;
 }
 
 @media screen and (min-width: 550px) {
+  .project-container {
+    margin-top: 10%;
+  }
+
+  .first-project {
+    margin-top: 5%;
+  }
+
   .image-card-child,
   .image-card-parent {
     width: 55vw;
@@ -108,6 +115,56 @@ h3 {
   }
 }
 
-/* @media screen and (min-width: 774px) {
+@media screen and (min-width: 774px) {
+  .project-btn-container {
+    bottom: 10%;
+  }
+}
 
-} */
+@media screen and (min-width: 900px) {
+  h3 {
+    margin-bottom: 10px;
+  }
+
+  .tech-text,
+  .desc-text {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .project-container {
+    width: 1060px;
+  }
+
+  .project-btn {
+    width: 446px;
+  }
+
+  .image-card-child,
+  .image-card-parent,
+  .info-card {
+    width: 616px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .project-container {
+    width: 1300px;
+  }
+
+  .project-btn {
+    width: 500px;
+  }
+
+  .image-card-child,
+  .image-card-parent,
+  .info-card {
+    width: 750px;
+  }
+
+  .tech-text,
+  .desc-text {
+    font-size: 1.25rem;
+  }
+}

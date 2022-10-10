@@ -1,8 +1,18 @@
-.about-content {
+.about-container {
   display: flex;
   flex-direction: column;
   flex: 1;
   justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-text {
+  padding: 30px;
 }
 
 .headshot-container {
@@ -37,6 +47,7 @@
 
 .about-skills {
   list-style: none;
+  font-size: 2.5vw;
 }
 
 .about-skills li {
@@ -52,7 +63,37 @@
   .headshot-bg {
     width: 358px;
   }
+
+  .about-skills {
+    font-size: 1rem;
+  }
 }
 
-/* @media screen and (min-width: 774px) {
-} */
+@media screen and (min-width: 900px) {
+  .about-content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .about-text {
+    padding: 0px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .about-content {
+    width: 1060px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .about-content {
+    width: 1500px;
+  }
+  .headshot-bg {
+    width: 450px;
+  }
+}

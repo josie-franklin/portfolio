@@ -38,7 +38,15 @@ const Header = () => {
 
   return (
     <header id="header" className="flex-row justify-between align-center">
-      <div className="logoplaceholder"></div>
+      <a href="#">
+        <div className="logo-bg flex justify-center align-center">
+          <svg className="logo" height="24" width="24">
+            <text x="2" y="17">
+              JF
+            </text>
+          </svg>
+        </div>
+      </a>
       <Nav></Nav>
     </header>
   );

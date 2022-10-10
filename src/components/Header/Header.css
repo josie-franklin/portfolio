@@ -14,9 +14,28 @@ header {
   top: -10vh;
 }
 
-.logoplaceholder {
+.logo-bg {
   background-color: var(--tertiary-bg);
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
+  transition: background-color 0.15s;
+}
+
+.logo-bg:hover {
+  background-color: var(--secondary-accent);
+}
+
+.logo {
+  fill: var(--secondary-bg)
+}
+
+.logo text {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 1120px) {
+
+  
 }

@@ -74,6 +74,7 @@ body {
   background-color: var(--background);
   color: var(--secondary-text);
   font-family: Arial, Helvetica, sans-serif;
+  /* font-size: 1rem; */
   line-height: 1.5;
   padding-top: 10vh;
 }
@@ -113,7 +114,10 @@ h2 {
   flex: 1;
   height: 4px;
   border-top: 3px solid var(--secondary-accent);
-  /* border-bottom: 2px solid var(--secondary-text); */
+}
+
+.btn-container {
+  margin: 10px 20px;
 }
 
 .btn {
@@ -134,5 +138,15 @@ h2 {
 @media screen and (min-width: 774px) {
   #landing {
     width: 774px;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  body {
+    font-size: 1.25rem;
+  }
+
+  button {
+    font-size: 1rem;
   }
 }

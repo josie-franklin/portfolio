@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     // use SVGs for easy icon recoloring. SVGs are free from Iconmonster.
-    <footer className="flex align-center justify-center">
+    <footer className="flex align-center">
       <a href="https://github.com/josie-franklin" target="blank">
         {/* GitHub SVG */}
         <svg
