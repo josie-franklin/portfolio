@@ -38,10 +38,10 @@ const Header = () => {
 
   return (
     <header id="header" className="flex-row justify-between align-center">
-      <a href="#">
+      <a href="/">
         <div className="logo-bg flex justify-center align-center">
           <svg className="logo" height="24" width="24">
-            <text x="2" y="17">
+            <text x="2.5" y="17">
               JF
             </text>
           </svg>
