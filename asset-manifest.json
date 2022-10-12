@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.29895606.css",
+    "main.js": "/portfolio/static/js/main.bd5bff17.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/headshot.jpg": "/portfolio/static/media/headshot.214db46b31b1a41c155a.jpg",
+    "static/media/site-seers.png": "/portfolio/static/media/site-seers.0937a14c024315d26b9d.png",
+    "static/media/e-commerce.png": "/portfolio/static/media/e-commerce.0a39ac5988dbde511719.png",
+    "static/media/weather-dashboard.png": "/portfolio/static/media/weather-dashboard.8361662ad1c2343338bd.png",
+    "static/media/social-media.png": "/portfolio/static/media/social-media.99f597af94d49f6f2c9e.png",
+    "static/media/resume2022.pdf": "/portfolio/static/media/resume2022.3ed587df65adfc26d25c.pdf",
+    "static/media/jokr.png": "/portfolio/static/media/jokr.d22faba56a4b2dff0f7d.png",
+    "static/media/circle.png": "/portfolio/static/media/circle.c2962ea3415e2a7ab588.png",
+    "static/media/coding-quiz.png": "/portfolio/static/media/coding-quiz.538773cc635513160a11.png",
+    "static/media/placeholder.jpg": "/portfolio/static/media/placeholder.0356de2f42dd717b148d.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.29895606.css.map": "/portfolio/static/css/main.29895606.css.map",
+    "main.bd5bff17.js.map": "/portfolio/static/js/main.bd5bff17.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29895606.css",
+    "static/js/main.bd5bff17.js"
+  ]
+}
