@@ -1,12 +1,13 @@
 # portfolio
 
-```
-Single page with scroll to components
-or conditionally rendered pages with fun transitions/design
-parallax will depend on scroll ability
+## About
 
-change color scheme
-stuff with color can show color on hover
-simpler color scheme with more contrast
-I like colors. color palette change buttons in about section?
-```
+This application is a responsive porfolio site for my work. Technologies used include the React library for HTML, and CSS. I challenged myself to use pure CSS for this project without using a library or framework.
+
+## Application
+
+![Screenshot](./src/assets/images/screenshot.png)
+
+## Links
+- [Deployed Application](https://josie-franklin.github.io/portfolio/)
+- [GitHub Repo](https://github.com/josie-franklin/portfolio)
