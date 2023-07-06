@@ -53,6 +53,7 @@
 .about-skills li {
   margin-left: 10px;
   color: var(--secondary-accent);
+  white-space: nowrap;
 }
 
 #first-skill {

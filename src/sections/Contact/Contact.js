@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import resume from "../../assets/files/resume2022.pdf";
+import resume from "../../assets/files/resume2023.pdf";
 
 import "./Contact.css";
 

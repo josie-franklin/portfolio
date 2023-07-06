@@ -6,13 +6,13 @@ import "./Portfolio.css";
 const Portfolio = () => {
   const [projects] = useState([
     {
-      title: "Jokr",
-      key: "jokr",
-      tech: "Handlebars.js, Sequelize, Heroku",
-      description: "Sign up to search for jokes and save them.",
-      link: "https://damp-bastion-89209.herokuapp.com/login",
-      github: "https://github.com/josie-franklin/jokr",
-      background: "jokr.png",
+      title: "The Cap Courier",
+      key: "cap-courier",
+      tech: "React, Sequelize, Node.js, MySql",
+      description: "Keep up with my bottle cap collection. (In progress)",
+      link: "https://floating-escarpment-90509-a0a1efb65d21.herokuapp.com/",
+      github: "https://github.com/josie-franklin/cap-courier",
+      background: "cap-courier.png",
     },
     {
       title: "Site Seers",
@@ -24,6 +24,15 @@ const Portfolio = () => {
       background: "site-seers.png",
     },
     {
+      title: "Jokr",
+      key: "jokr",
+      tech: "Handlebars.js, Sequelize, Heroku",
+      description: "Sign up to search for jokes and save them.",
+      link: "https://rocky-bayou-77845-e1fcdb579d72.herokuapp.com/",
+      github: "https://github.com/josie-franklin/jokr",
+      background: "jokr.png",
+    },
+    {
       title: "Weather Dashboard",
       key: "weather-dash",
       tech: "HTML, CSS, OpenWeather API",
@@ -31,15 +40,6 @@ const Portfolio = () => {
       link: "https://josie-franklin.github.io/weather-dashboard/",
       github: "https://github.com/josie-franklin/weather-dashboard",
       background: "weather-dashboard.png",
-    },
-    {
-      title: "Coding Quiz",
-      key: "coding-quiz",
-      tech: "HTML, CSS, JavaScript",
-      description: "Test your coding knowledge in this timed quiz!",
-      link: "https://josie-franklin.github.io/coding-quiz/",
-      github: "https://github.com/josie-franklin/coding-quiz",
-      background: "coding-quiz.png",
     },
     {
       title: "E-Commerce Backend",
