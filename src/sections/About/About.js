@@ -15,15 +15,16 @@ const About = () => {
           <div className="about-text flex-column">
             <p>
               Hey there! My name is Josie. I am a{" "}
-              <span>full-stack developer</span> currently working in Cary, NC.
-              My <span>background in education</span> fostered my love for
-              learning and seeking new challenges, which naturally lead to
-              becoming <span>certified in web development</span>. My passion for
-              web design found its roots in my <span>art background</span>, while
-              my <span>managerial experience</span> and time as a student 
-              developed my persistent problem-solving skills. I now consider 
-              color, composition, and functionality while creating intuitive UI
-              for the best user experiences.
+              <span>full-stack developer</span> currently working in
+              Minneapolis, MN. My <span>background in education</span> fostered
+              my love for learning and seeking new challenges, which naturally
+              lead to becoming <span>certified in web development</span>. My
+              passion for web design found its roots in my{" "}
+              <span>art background</span>, while my{" "}
+              <span>managerial experience</span> and time as a student developed
+              my persistent problem-solving skills. I now consider color,
+              composition, and functionality while creating intuitive UI for the
+              best user experiences.
             </p>
             <p className="about-primary margin-top">
               Here are some technologies I'm using currently.
